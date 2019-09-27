@@ -28,7 +28,7 @@ def find_element_index(array, value_to_find)
 end
 
 
-
+# FINDING MAXIMUM VALUE
 def find_max_value(array)
   x = 0
   array.length.times { |index|
@@ -40,6 +40,13 @@ def find_max_value(array)
 end
 
 
+# FINDING MINIMUM VALUE
 def find_min_value(array)
-  # Add your solution here
+  x = 0
+  array.length.times { |index|
+  if array[index] < x
+    x = array[index]
+  end 
+  }
+   x 
 end
