@@ -30,7 +30,11 @@ end
 
 
 def find_max_value(array)
-  array.length.times do |counter|
+  array.length.times { |index|
+  
+  
+  }
+  
     
 end
 
