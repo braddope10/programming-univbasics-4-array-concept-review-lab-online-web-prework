@@ -13,7 +13,7 @@
 
 # METHOD 2 
 # def find_element_index(array, value_to_find)
-  # array.length.times do |counter|
+  # array.length.times do |counter|  # BLOCK VARIABLE
     # if array[counter] == value_to_find
       # return counter 
     # end 
